@@ -65,6 +65,7 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -79,6 +80,7 @@
   text-decoration: none;
   color: #2f80ed;
 }
+
 .header__link:hover {
   transition: 2s;
   color: red;
@@ -234,6 +236,7 @@
   text-decoration: none;
   color: #000;
 }
+
 .feynman__link:hover {
   transition: 2s;
   color: rgb(76, 221, 108);
@@ -254,7 +257,9 @@
 .table_theme_dark {
   margin-bottom: 90px;
 }
+
 /* и элемента с модификатором вида ключ-значение */
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -302,13 +307,6 @@
   justify-content: space-between;
 }
 
-.footer__content_copyright {
-  flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .logo_place_footer {
   height: 35px;
   width: 183px;
@@ -320,6 +318,13 @@
   font-weight: normal;
   padding: 18px 0 18px 0;
   margin: 0;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__column_content_info {
@@ -341,6 +346,7 @@
   padding: 0;
   margin: 20px 0 16px 0;
 }
+
 .footer__column-links:hover {
   transition: 2s;
   color: rgb(187, 78, 78);
@@ -353,6 +359,7 @@
   font-size: 18px;
   font-weight: normal;
 }
+
 .footer__column-link:hover {
   transition: 2s;
   color: rgb(187, 78, 78);
@@ -374,4 +381,3 @@
   width: 16px;
   padding-right: 10px;
 }
-
