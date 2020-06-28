@@ -96,7 +96,7 @@
   justify-content: center;
 }
 
-.description__two-columns {
+.two-columns {
   padding-top: 100px;
   display: flex;
   width: 80%;
@@ -200,7 +200,7 @@
   z-index: 0;
 }
 
-.feynman-title {
+.feynman__title {
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -208,7 +208,7 @@
   margin: 100px 0 0 0;
 }
 
-.feynman-subtitle {
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -302,7 +302,7 @@
   justify-content: space-between;
 }
 
-.footer__column_copyright {
+.footer__content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
