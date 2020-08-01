@@ -1,0 +1,4 @@
+.footer__column-link:hover {
+  transition: 1s;
+  opacity: 50%;
+}
