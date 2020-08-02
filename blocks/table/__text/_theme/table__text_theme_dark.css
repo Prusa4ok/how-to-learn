@@ -1,9 +1,7 @@
 .table__text_theme_dark {
-  margin-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+  color: white;
 }
 
-/* здесь был только margin, так как html в секции kaufman указаны классы table__text и table__text_theme_dark,
- а единственное их отличие состоит в margin, я решил записать только отличное свойство))*/
+/* всё встало на свои места, был невнимателен и единственное что отличает текст черной темы от обычной это цвет,
+проверил по первому брифу, я цвет указывал в table__cell_theme_dark и это свойство наследовалось
+в table__text_theme_dark, после того как добавил цвет сюда .table__text_theme_dark выглядит логичней*/
